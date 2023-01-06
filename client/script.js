@@ -14,7 +14,7 @@ function loader(element) {
 
     if (element.textContent === '....') {
       element.textContent = '';
-    }
+  }
   }, 300)
 }
 
@@ -43,7 +43,7 @@ function chatStripe(isAi, value, uniqueId) {
   return (
     `
       <div class="wrapper ${isAi && 'ai'}">
-        <div class="chat>
+        <div class="chat">
           <div class="profile">
             <img 
               src="${isAi ? bot : user}"
